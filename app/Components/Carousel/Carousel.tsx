@@ -316,7 +316,7 @@ function CarouselCard({
   trackItemOffset: number;
   itemWidth: number;
   round: boolean;
-  transition: any;
+  transition: CSSTransition;
 }) {
   // Hooks live here (top level of a component) ✅
   const range = [-(index + 1) * trackItemOffset, -index * trackItemOffset, -(index - 1) * trackItemOffset];
