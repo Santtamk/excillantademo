@@ -1,10 +1,8 @@
 "use client";
 
 import NavBar from "./Components/NavBar";
-import GridDistortion from "./Components/GridDistortion";
-import ExcellentaHero from "./Components/Form";
-import FormSection from "./Components/FormSection";
-import ExcellentaHeroUnified from "./Components/TrialForm";
+
+
 import RippleGrid from "./Components/RippleGrid";
 import FlowingMenu from "./Components/FlowingMenu";
 import OurExpertise from "./Components/OurExpertise";
