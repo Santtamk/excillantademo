@@ -1,28 +1,9 @@
 import React from "react";
 import ChromaGrid from "./ChromaGrid";
 
-const TeamCard = () => {
-  return (
-    <div>
-      <div className="text-5xl text-center pb-7 !bg-[#060010]">
-        Let&apos;s see what does our client tells about us
-      </div>
-      <ChromaGrid
-        items={items}
-        radius={300}
-        damping={0.45}
-        fadeOut={0.6}
-        ease="power3.out"
-      />
-    </div>
-  );
-};
-
-export default TeamCard;
-
 const items = [
   {
-    image: "/Users/User5.png",
+    image: "/Users/User5.webp",
     title: "Anjali Gupta",
     subtitle: "Executive Producer, National News Network",
     handle:
@@ -32,7 +13,7 @@ const items = [
     url: "",
   },
   {
-    image: "/Users/User2.png",
+    image: "/Users/User2.webp",
     title: "Ravi Patel",
     subtitle: "Managing Director, ProVision Broadcast Solutions",
     handle:
@@ -42,7 +23,7 @@ const items = [
     url: "",
   },
   {
-    image: "/Users/User3.png",
+    image: "/Users/User3.webp",
     title: "Michael Tan",
     subtitle: "Director of Events, TechCorp Summit",
     handle:
@@ -52,7 +33,7 @@ const items = [
     url: "",
   },
   {
-    image: "/Users/User4.png",
+    image: "/Users/User4.webp",
     title: "Vinit Bakshi",
     subtitle: "Senior Producer, Global Sports Channel",
     handle:
@@ -73,3 +54,22 @@ const items = [
     url: "",
   },
 ];
+
+const TeamCard = () => {
+  return (
+    <div>
+      <div className="text-5xl text-center pb-7 !bg-[#060010]">
+        Let&apos;s see what does our client tells about us
+      </div>
+      <ChromaGrid
+        items={items}
+        radius={300}
+        damping={0.45}
+        fadeOut={0.6}
+        ease="power3.out"
+      />
+    </div>
+  );
+};
+
+export default TeamCard;
