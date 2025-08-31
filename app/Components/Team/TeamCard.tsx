@@ -3,7 +3,7 @@ import ChromaGrid from "./ChromaGrid";
 
 const items = [
   {
-    image: "/users/user5.webp",
+    image: "/reviews/user5.webp",
     title: "Anjali Gupta",
     subtitle: "Executive Producer, National News Network",
     handle:
@@ -13,7 +13,7 @@ const items = [
     url: "",
   },
   {
-    image: "/users/user2.webp",
+    image: "/reviews/user2.webp",
     title: "Ravi Patel",
     subtitle: "Managing Director, ProVision Broadcast Solutions",
     handle:
@@ -23,7 +23,7 @@ const items = [
     url: "",
   },
   {
-    image: "/users/user3.webp",
+    image: "/reviews/user3.webp",
     title: "Michael Tan",
     subtitle: "Director of Events, TechCorp Summit",
     handle:
@@ -33,7 +33,7 @@ const items = [
     url: "",
   },
   {
-    image: "/users/user4.webp",
+    image: "/reviews/user4.webp",
     title: "Vinit Bakshi",
     subtitle: "Senior Producer, Global Sports Channel",
     handle:
@@ -44,7 +44,7 @@ const items = [
   },
 
   {
-    image: "/users/user6.webp",
+    image: "/reviews/user6.webp",
     title: "Neeraj Sethi",
     subtitle: "Event Director, Global Beats Festival",
     handle:
