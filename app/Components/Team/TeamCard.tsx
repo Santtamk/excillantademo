@@ -1,14 +1,9 @@
 import React from "react";
 import ChromaGrid from "./ChromaGrid";
-import user2 from "@/public/users/user2.webp";
-import user3 from "@/public/users/user3.webp";
-import user4 from "@/public/users/user4.webp";
-import user5 from "@/public/users/user5.webp";
-import user6 from "@/public/users/user6.webp";
 
 const items = [
   {
-    image: user5.src,
+    image: "/users/user5.webp",
     title: "Anjali Gupta",
     subtitle: "Executive Producer, National News Network",
     handle:
@@ -18,7 +13,7 @@ const items = [
     url: "",
   },
   {
-    image: user2.src,
+    image: "/users/user2.webp",
     title: "Ravi Patel",
     subtitle: "Managing Director, ProVision Broadcast Solutions",
     handle:
@@ -28,7 +23,7 @@ const items = [
     url: "",
   },
   {
-    image: user3.src,
+    image: "/users/user3.webp",
     title: "Michael Tan",
     subtitle: "Director of Events, TechCorp Summit",
     handle:
@@ -38,7 +33,7 @@ const items = [
     url: "",
   },
   {
-    image: user4.src,
+    image: "/users/user4.webp",
     title: "Vinit Bakshi",
     subtitle: "Senior Producer, Global Sports Channel",
     handle:
@@ -49,7 +44,7 @@ const items = [
   },
 
   {
-    image: user6.src,
+    image: "/users/user6.webp",
     title: "Neeraj Sethi",
     subtitle: "Event Director, Global Beats Festival",
     handle:
