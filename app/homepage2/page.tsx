@@ -52,12 +52,21 @@ const page = () => {
             Bridging technology and emotion, one broadcast at a time.
           </span>
           <br />
-          <button
-            className="mt-8 z-50 rounded-full bg-[#5227ff] px-6 py-3 text-white text-2xl cursor-pointer pointer-events-auto"
-            onClick={clicked}
-          >
-            Get Started
-          </button>
+          <div className="flex items-center justify-center gap-6 flex-wrap">
+            <button
+              className="mt-8 z-50 rounded-full bg-[#5227ff] px-6 py-3 text-white text-2xl cursor-pointer pointer-events-auto"
+              onClick={clicked}
+            >
+              Broadcast Now
+            </button>
+
+            <button
+              className="mt-8 z-50 rounded-full bg-[#5227ff] px-6 py-3 text-white text-2xl cursor-pointer pointer-events-auto"
+              onClick={clicked}
+            >
+              Know More
+            </button>
+          </div>
         </h1>
       </section>
 
