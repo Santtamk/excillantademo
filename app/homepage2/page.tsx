@@ -45,7 +45,7 @@ const page = () => {
           {/* Field to Screen<span className="font-serif px-6 italic ">—</span>
           As It Happens{" "} */}
           <br />
-          <span className="text-xs md:text-sm">
+          <span className="text-xl ">
             Bridging technology and emotion, one broadcast at a time.
           </span>
         </h1>
