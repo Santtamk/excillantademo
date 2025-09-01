@@ -13,9 +13,9 @@ import Footer from "../Components/Footer";
 
 const page = () => {
   return (
-    <main className="relative h-screen bg-[#060010]">
+    <main className="relative h-screen bg-[#060010] overflow-x-hidden">
       {/* Background image/distortion (bottom layer) */}
-      <div className="absolute inset-0 z-0 h-screen  mx-auto">
+      <div className="absolute inset-0 z-0 h-screen mx-auto">
         <Dither
           waveColor={[0.5, 0.5, 0.5]}
           disableAnimation={false}
@@ -36,41 +36,41 @@ const page = () => {
       </header>
 
       {/* Optional centered foreground content over the hero */}
-      <section className="relative z-20 grid h-full lg:place-items-center pointer-events-none ">
+      <section className="relative z-20 grid h-full place-items-center lg:place-items-center pointer-events-none">
         {/* put CTA/title here; remove pointer-events-none to make them clickable */}
         {/* <h1 className="text-white text-5xl font-bold">@1Stop</h1> */}
-        <h1 className="text-8xl font-bold text-center max-w-[950px]">
+        <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-center max-w-[950px] px-4">
           {" "}
-          <span className="font-serif    px-4">From Pixel to Audience</span>
+          <span className="font-serif px-4">From Pixel to Audience</span>
           {/* Field to Screen<span className="font-serif px-6 italic ">—</span>
           As It Happens{" "} */}
           <br />
-          <span className="text-sm ">
+          <span className="text-xs md:text-sm">
             Bridging technology and emotion, one broadcast at a time.
           </span>
         </h1>
       </section>
 
-      <div className="bg-[#060010] py-10 ">
+      <div className="bg-[#060010] py-5 md:py-10">
         <LogoComp />
       </div>
-      <div className="bg-[#060010] !max-w-[1300px] mx-auto">
+      <div className="bg-[#060010] max-w-[1300px] mx-auto px-4">
         <OurExpertise />
       </div>
-      <div className="bg-[#060010] !max-w-[1300px] mx-auto">
+      <div className="bg-[#060010] max-w-[1300px] mx-auto px-4">
         <BroadCastSolution />
       </div>
 
-      <div className="bg-[#060010] py-10 !max-w-[1300px] mx-auto">
+      <div className="bg-[#060010] py-5 md:py-10 max-w-[1300px] mx-auto px-4">
         <TitleCardMap />
       </div>
-      <div className="!bg-[#060010] py-10 !max-w-[1300px] mx-auto">
+      <div className="bg-[#060010] py-5 md:py-10 max-w-[1300px] mx-auto px-4">
         <TeamCard />
       </div>
-      <div className="bg-[#060010] py-10 !max-w-[1300px] mx-auto">
+      <div className="bg-[#060010] py-5 md:py-10 max-w-[1300px] mx-auto px-4">
         <ExcellentaFormsStack />
       </div>
-      <div className="!max-w-[1300px] mx-auto">
+      <div className="max-w-[1300px] mx-auto px-4">
         <Footer />
       </div>
     </main>
