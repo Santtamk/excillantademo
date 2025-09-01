@@ -12,6 +12,9 @@ import ExcellentaFormsStack from "../Components/Form";
 import Footer from "../Components/Footer";
 
 const page = () => {
+  const clicked = () => {
+    console.log("clicked");
+  };
   return (
     <main className="relative h-screen bg-[#060010]">
       {/* Background image/distortion (bottom layer) */}
@@ -45,9 +48,16 @@ const page = () => {
           {/* Field to Screen<span className="font-serif px-6 italic ">—</span>
           As It Happens{" "} */}
           <br />
-          <span className="text-sm ">
+          <span className="text-xl ">
             Bridging technology and emotion, one broadcast at a time.
           </span>
+          <br />
+          <button
+            className="mt-8 z-50 rounded-full bg-[#5227ff] px-6 py-3 text-white text-2xl cursor-pointer"
+            onClick={clicked}
+          >
+            Get Started
+          </button>
         </h1>
       </section>
 
