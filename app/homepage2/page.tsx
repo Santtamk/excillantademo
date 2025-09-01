@@ -39,7 +39,7 @@ const page = () => {
       </header>
 
       {/* Optional centered foreground content over the hero */}
-      <section className="relative z-20 grid h-full place-items-center lg:place-items-center pointer-events-none">
+      <section className="relative z-20 grid h-full place-items-center lg:place-items-center">
         {/* put CTA/title here; remove pointer-events-none to make them clickable */}
         {/* <h1 className="text-white text-5xl font-bold">@1Stop</h1> */}
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-center max-w-[950px] px-4">
@@ -53,7 +53,7 @@ const page = () => {
           </span>
           <br />
           <button
-            className="mt-8 z-50 rounded-full bg-[#5227ff] px-6 py-3 text-white text-2xl cursor-pointer"
+            className="mt-8 z-50 rounded-full bg-[#5227ff] px-6 py-3 text-white text-2xl cursor-pointer pointer-events-auto"
             onClick={clicked}
           >
             Get Started
