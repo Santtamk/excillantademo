@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Dither from "../Components/Dither/Dither";
 import NavBar from "../Components/NavBar";
