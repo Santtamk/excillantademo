@@ -13,7 +13,7 @@ import Footer from "../Components/Footer";
 
 const page = () => {
   return (
-    <main className="relative h-screen bg-[#060010]">
+    <main className="relative h-screen bg-[#060010] overflow-x-hidden">
       {/* Background image/distortion (bottom layer) */}
       <div className="absolute inset-0 z-0 h-screen mx-auto">
         <Dither
