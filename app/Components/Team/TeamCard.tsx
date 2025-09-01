@@ -57,17 +57,19 @@ const items = [
 
 const TeamCard = () => {
   return (
-    <div>
+    <div className="!bg-[#060010]">
       <div className="text-5xl text-center pb-7 !bg-[#060010]">
         Let&apos;s see what does our client tells about us
       </div>
-      <ChromaGrid
-        items={items}
-        radius={300}
-        damping={0.45}
-        fadeOut={0.6}
-        ease="power3.out"
-      />
+      <div className="!bg-[#060010]">
+        <ChromaGrid
+          items={items}
+          radius={300}
+          damping={0.45}
+          fadeOut={0.6}
+          ease="power3.out"
+        />
+      </div>
     </div>
   );
 };

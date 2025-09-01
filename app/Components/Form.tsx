@@ -3,21 +3,21 @@
 // ----------------------------------------------------
 // Renders ONLY a single form block here (A). Add B/C similarly if needed.
 // Usage: <ExcellentaFormsStack />
-
+"use client";
 import * as React from "react";
 
-
-
-type InputProps = Omit<
-  React.InputHTMLAttributes<HTMLInputElement>,
-  "id"
-> & {
+type InputProps = Omit<React.InputHTMLAttributes<HTMLInputElement>, "id"> & {
   label: string;
   name: string;
   className?: string;
 };
 
-const Input: React.FC<InputProps> = ({ label, name, className = "", ...rest }) => {
+const Input: React.FC<InputProps> = ({
+  label,
+  name,
+  className = "",
+  ...rest
+}) => {
   const id = React.useId();
   return (
     <div className="grid gap-1">
